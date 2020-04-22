@@ -1,5 +1,11 @@
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
+# Introduction
+This app was created as a part of a [Udemy course](https://www.udemy.com/share/101WsWAEMScldUQn8F/) I am taking (April 2020). The goal was to create an app which rolled a pair of dice, then to use Auto Layout to scale to different devices and orientations. 
 
+See the original project description below. I modified the final solution slightly in order to incorporate an "animated" dice roll. - JC
+
+
+
+![App Brewery Banner](Documentation/AppBreweryBanner.png)
 # Auto Layout 
 
 ## Our Goal
