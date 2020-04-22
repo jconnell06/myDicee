@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AD0C510F22C623E500AADC4D /* AutoLayout-iOS13.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AutoLayout-iOS13.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0C510F22C623E500AADC4D /* myDice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myDice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD0C511222C623E500AADC4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD0C511422C623E500AADC4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AD0C511622C623E500AADC4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 		AD0C511022C623E500AADC4D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AD0C510F22C623E500AADC4D /* AutoLayout-iOS13.app */,
+				AD0C510F22C623E500AADC4D /* myDice.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AD0C510E22C623E500AADC4D /* AutoLayout-iOS13 */ = {
+		AD0C510E22C623E500AADC4D /* myDicee */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AD0C512322C623E700AADC4D /* Build configuration list for PBXNativeTarget "AutoLayout-iOS13" */;
+			buildConfigurationList = AD0C512322C623E700AADC4D /* Build configuration list for PBXNativeTarget "myDicee" */;
 			buildPhases = (
 				AD0C510B22C623E500AADC4D /* Sources */,
 				AD0C510C22C623E500AADC4D /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = "AutoLayout-iOS13";
+			name = myDicee;
 			productName = "AutoLayout-iOS13";
-			productReference = AD0C510F22C623E500AADC4D /* AutoLayout-iOS13.app */;
+			productReference = AD0C510F22C623E500AADC4D /* myDice.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AD0C510A22C623E500AADC4D /* Build configuration list for PBXProject "AutoLayout-iOS13" */;
+			buildConfigurationList = AD0C510A22C623E500AADC4D /* Build configuration list for PBXProject "myDicee" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AD0C510E22C623E500AADC4D /* AutoLayout-iOS13 */,
+				AD0C510E22C623E500AADC4D /* myDicee */,
 			);
 		};
 /* End PBXProject section */
@@ -289,13 +289,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6YYHUYBSP;
 				INFOPLIST_FILE = "AutoLayout-iOS13/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "co.appbrewery.AutoLayout-iOS13";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joellenconnell.myDice;
+				PRODUCT_NAME = myDice;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -306,13 +307,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6YYHUYBSP;
 				INFOPLIST_FILE = "AutoLayout-iOS13/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "co.appbrewery.AutoLayout-iOS13";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joellenconnell.myDice;
+				PRODUCT_NAME = myDice;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -321,7 +323,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AD0C510A22C623E500AADC4D /* Build configuration list for PBXProject "AutoLayout-iOS13" */ = {
+		AD0C510A22C623E500AADC4D /* Build configuration list for PBXProject "myDicee" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AD0C512122C623E700AADC4D /* Debug */,
@@ -330,7 +332,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AD0C512322C623E700AADC4D /* Build configuration list for PBXNativeTarget "AutoLayout-iOS13" */ = {
+		AD0C512322C623E700AADC4D /* Build configuration list for PBXNativeTarget "myDicee" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AD0C512422C623E700AADC4D /* Debug */,

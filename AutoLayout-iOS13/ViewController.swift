@@ -5,8 +5,22 @@
 //  Created by Angela Yu on 28/06/2019.
 //  Copyright © 2019 The App Brewery. All rights reserved.
 //
+//  Date: 19-APR-2020
+//  Updated By: JoEllen Connell
+//  Added some program control to "animate" the dice roll.
 
 import UIKit
+
+extension UIImageView {
+    
+    func animate(_ images: [UIImage]) {
+         self.animationImages =  images
+        self.animationDuration = 0.6
+         self.animationRepeatCount = 3
+         self.image = images.last
+         self.startAnimating()
+    }
+}
 
 class ViewController: UIViewController {
     
@@ -15,10 +29,12 @@ class ViewController: UIViewController {
     
     @IBAction func rollButtonPressed(_ sender: UIButton) {
         
-        let allDice = [#imageLiteral(resourceName: "DiceOne"), #imageLiteral(resourceName: "DiceTwo"), #imageLiteral(resourceName: "DiceThree"), #imageLiteral(resourceName: "DiceFour"), #imageLiteral(resourceName: "DiceFive"), #imageLiteral(resourceName: "DiceSix")]
         
-        diceImageView1.image = allDice[Int.random(in: 0...5)]
-        diceImageView2.image = allDice[Int.random(in: 0...5)]
+        
+        let diceArray = [#imageLiteral(resourceName: "DiceOne"), #imageLiteral(resourceName: "DiceTwo"), #imageLiteral(resourceName: "DiceThree"), #imageLiteral(resourceName: "DiceFour"), #imageLiteral(resourceName: "DiceFive"), #imageLiteral(resourceName: "DiceSix")]
+        
+        diceImageView1.animate(diceArray.shuffled())
+        diceImageView2.animate(diceArray.shuffled())
         
     }
     
