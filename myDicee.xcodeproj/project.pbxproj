@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89C30F8B244FEB5700D091CC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89C30F8A244FEB5700D091CC /* Default-568h@2x.png */; };
 		AD0C511322C623E500AADC4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0C511222C623E500AADC4D /* AppDelegate.swift */; };
 		AD0C511522C623E500AADC4D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0C511422C623E500AADC4D /* SceneDelegate.swift */; };
 		AD0C511722C623E500AADC4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0C511622C623E500AADC4D /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		89C30F8A244FEB5700D091CC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		AD0C510F22C623E500AADC4D /* myDice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myDice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD0C511222C623E500AADC4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD0C511422C623E500AADC4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,8 +44,9 @@
 		AD0C510622C623E500AADC4D = {
 			isa = PBXGroup;
 			children = (
+				89C30F8A244FEB5700D091CC /* Default-568h@2x.png */,
 				AD0C512822C6276D00AADC4D /* README.md */,
-				AD0C511122C623E500AADC4D /* AutoLayout-iOS13 */,
+				AD0C511122C623E500AADC4D /* myDicee */,
 				AD0C511022C623E500AADC4D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,7 +59,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AD0C511122C623E500AADC4D /* AutoLayout-iOS13 */ = {
+		AD0C511122C623E500AADC4D /* myDicee */ = {
 			isa = PBXGroup;
 			children = (
 				AD0C511222C623E500AADC4D /* AppDelegate.swift */,
@@ -67,7 +70,7 @@
 				AD0C511D22C623E700AADC4D /* LaunchScreen.storyboard */,
 				AD0C512022C623E700AADC4D /* Info.plist */,
 			);
-			path = "AutoLayout-iOS13";
+			path = myDicee;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +134,7 @@
 				AD0C511F22C623E700AADC4D /* LaunchScreen.storyboard in Resources */,
 				AD0C511C22C623E700AADC4D /* Assets.xcassets in Resources */,
 				AD0C512922C6276D00AADC4D /* README.md in Resources */,
+				89C30F8B244FEB5700D091CC /* Default-568h@2x.png in Resources */,
 				AD0C511A22C623E500AADC4D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,7 +294,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z6YYHUYBSP;
-				INFOPLIST_FILE = "AutoLayout-iOS13/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/myDicee/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +312,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z6YYHUYBSP;
-				INFOPLIST_FILE = "AutoLayout-iOS13/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/myDicee/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
