@@ -13,3 +13,6 @@ I modified the final solution slightly in order to incorporate an "animated" dic
 * How to use Stack Views to create complex interfaces.
 
 >This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
+
+## Final Result
+![](DiceeDemo.gif)
